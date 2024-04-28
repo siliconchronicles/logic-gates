@@ -5,7 +5,11 @@
 	(uuid "328187d2-8ae2-47c7-94e8-bb4e92e3376a")
 	(paper "A5")
 	(title_block
-		(title "Building AND gates the wrong way: Intro")
+		(title "Intro")
+		(date "2024-04-28")
+		(company "Silicon Chronicles")
+		(comment 1 "Building AND gates the wrong way")
+		(comment 2 "Part I")
 	)
 	(lib_symbols
 		(symbol "Device:LED"
@@ -729,6 +733,17 @@
 			(type default)
 		)
 		(uuid "dc1f5802-f1aa-4229-994f-1d5a098dfdc1")
+	)
+	(text "The LED will light up when both inputs are pressed.\n\nThis doesn't make this a \"gate\". In a gate inputs should\nbe controlled with a signal, not requiring human intervention\n\nAlso, the output here (if we consider the spot before D1 as the output)\nis floating when no buttons are pressed, usually you'd want a low\nvalue around 0V"
+		(exclude_from_sim no)
+		(at 97.536 34.036 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3a379c2d-687e-4e69-bfb1-012bea11d06f")
 	)
 	(symbol
 		(lib_id "power:GND")
