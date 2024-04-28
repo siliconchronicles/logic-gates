@@ -8,7 +8,7 @@ This documents some of the circuits build in my video series about logic gates. 
 
 * [Building AND gates the wrong way](https://www.youtube.com/playlist?list=PLTWi9xjnQ4OIN4tKIpxe4m90GZRhxCJd1): 
 Learn how logic gates work inside. I'll explore several common mistaken ways to create ways that can be found online, and then discuss some of the working models. This series is still in production, so expect the list below to grow:
-  * Intro. "Gates" with switches (part 1)
+  * [Intro. "Gates" with switches (part 1)](docs/and-gates-intro/)
   * Diodes & Diodes (part 2)
   * Transistors are switches? (part 3)
   * to be continued
