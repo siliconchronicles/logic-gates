@@ -5820,6 +5820,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 25.4 172.72)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a624e7b3-55bb-42da-a81c-a4cd49ef1c64")
+		(property "Sheetname" "Additional diagrams"
+			(at 25.4 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "extras.kicad_sch"
+			(at 25.4 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "and-gates-p4"
+				(path "/66407854-f767-4de9-b271-5a41632efb59"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
