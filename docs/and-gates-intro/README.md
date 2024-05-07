@@ -14,7 +14,7 @@ Most of this document will be targeted at people very new to breadboarding.
 ## Schematics
 
 * [Download full schematic](schematic.png)
-* [Download KiCAD schematic](/kicad/and-gates-p1/and-gates-p1.kicad_sch)
+* [Download KiCAD schematic](../../kicad/and-gates-p1/and-gates-p1.kicad_sch)
 
 ![AND gate with switches](switch-gate.png)
 

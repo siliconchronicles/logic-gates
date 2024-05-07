@@ -10,7 +10,7 @@ Check the video first:
 ## Schematics
 
 * [Download full schematic](schematic.png)
-* [Download KiCAD schematic](/kicad/and-gates-p2/and-gates-p2.kicad_sch)
+* [Download KiCAD schematic](../../kicad/and-gates-p2/and-gates-p2.kicad_sch)
 
 ![AND gate with diodes](diode-gate.png)
 

@@ -9,7 +9,7 @@ Check the video first:
 ## Schematics
 
 * [Download full schematic](schematic.png)
-* [Download KiCAD schematic](/kicad/and-gates-p3/and-gates-p3.kicad_sch)
+* [Download KiCAD schematic](../../kicad/and-gates-p3/and-gates-p3.kicad_sch)
 
 ## What materials you need
 
