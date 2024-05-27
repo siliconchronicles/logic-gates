@@ -1724,17 +1724,18 @@
 		)
 		(uuid "274488df-ef26-4660-bb11-f34fb10dccf0")
 	)
-	(text "Input with Pull-up"
+	(text "Input with Pull-down"
 		(exclude_from_sim no)
-		(at 67.056 14.986 0)
+		(at 75.946 14.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "3e93c606-d53c-4a9e-a4ac-eb9fad2502ae")
 	)
-	(text "The pull-up input tied with the gate forms a voltage\ndivisor going through R6/D5/R2 (and R6/D4/R5). That\nwill make outputs quite high even when both inputs are low.\n\nThe input with pull-down solves that issue (it also\nreverses the behaviour of the push-button, making them\n\"high\" on released and \"low\" when pressed).\n\nHowever the chained gates show another problem. When B\nis low, and the rest of the inputs are high, there's\na path through  R12/D12/D10/D7 with three diode\nvoltage drops (about 0.7V each) between R12 and GND.\nThat means that the voltage between R12 and D12 will\nbe around 2.1V. The voltage at that point is the output\nof the circuit, which should be low when B is low. The\ndeeper you compose these gates, the higher that output\nvoltage will be.\n\nTL;DR: Don't use these gates :) You can use one if there's\nsome buffer/amplifier later that restores your signal."
+	(text "The pull-down input tied with the gate forms a voltage\ndivisor going through R6/D5/R2 (and R6/D4/R5). That\nwill make outputs quite high even when both inputs are low.\n\nThe input with pull-up solves that issue (it also\nreverses the behaviour of the push-button, making them\n\"high\" on released and \"low\" when pressed).\n\nHowever the chained gates show another problem. When B\nis low, and the rest of the inputs are high, there's\na path through  R12/D12/D10/D7 with three diode\nvoltage drops (about 0.7V each) between R12 and GND.\nThat means that the voltage between R12 and D12 will\nbe around 2.1V. The voltage at that point is the output\nof the circuit, which should be low when B is low. The\ndeeper you compose these gates, the higher that output\nvoltage will be.\n\nTL;DR: Don't use these gates :) You can use one if there's\nsome buffer/amplifier later that restores your signal."
 		(exclude_from_sim no)
 		(at 137.16 37.338 0)
 		(effects
@@ -1755,13 +1756,14 @@
 		)
 		(uuid "d44747b3-caa3-4a34-97e0-d1203fc36fb4")
 	)
-	(text "Input with Pull-down\n"
+	(text "Input with Pull-up\n"
 		(exclude_from_sim no)
-		(at 66.04 71.882 0)
+		(at 76.708 71.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "e94efd8d-ffc0-4859-801c-c88d8ca000e7")
 	)
