@@ -37,6 +37,10 @@ If you really want to use this as a gate (in a context where you can handle the 
 
 I've linked the data sheet to both models below
 
+## Breadboard layout
+
+![Breadboard layout](breadboard.png)
+
 ## Data sheets
 
 * [1N4001-1N4007](https://www.vishay.com/docs/88503/1n4001.pdf) General Purpose Rectifier
