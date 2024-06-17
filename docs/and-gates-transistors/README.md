@@ -40,6 +40,10 @@ model number to see which pin
 corresponds to base, collector and emitter. Even close variants can
 have variations.
 
+## Breadboard layout
+
+![Breadboard layout](breadboard.png)
+
 ## Data sheets
 
 * [PN2222A](https://users.ece.utexas.edu/~valvano/Datasheets/PN2222-D.pdf) NPN Bipolar Junction Transistor.
